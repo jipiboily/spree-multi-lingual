@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta name="description" content="" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.17/themes/flick/jquery-ui.css" />
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.17/jquery-ui.min.js"></script>
+  
+  <script>
+  	$(function() {
+  		$( "#tabs" ).tabs();
+  		$( "#accordion" ).accordion();
+  	});
+  	</script>
+</head>
+<body>
+  <div class="demo">
+
+    <div id="tabs">
+    	<ul>
+    		<li><a href="#tabs-1">fr</a></li>
+    		<li><a href="#tabs-2">en</a></li>
+    		<li><a href="#tabs-3">ru</a></li>
+    		<li><a href="#tabs-4">ja</a></li>
+    		<li><a href="#tabs-5">es</a></li>
+    	</ul>
+    	
+    	<div id="tabs-1">
+    	  
+    	  <div id="accordion">
+        	<h3><a href="#">Product Details</a></h3>
+        	<div>
+        		<form>
+        		  <p>
+            		<label for="product_name">Product name</label>
+            		<input type="text" name="product_name" />
+              </p>
+              <p>
+            		<label for="product_description">Product description</label>
+            		<textarea name="product_description"></textarea>
+          		</p>
+          		<p>
+            		<label for="product_meta_keyword">Meta keywords</label>
+            		<input type="text" name="product_meta_keyword" />
+              </p>
+        		  <p>
+            		<label for="product_meta_description">Meta description</label>
+            		<input type="text" name="product_meta_description" />
+              </p>
+        		</form>
+        	</div>
+        	<h3><a href="#">Variants</a></h3>
+        	<div>
+        	</div>
+        	
+        	<h3><a href="#">Option types</a></h3>
+        	<div>
+        	</div>
+        	
+        	<h3><a href="#">Product properties</a></h3>
+        	<div>
+        	</div>
+        </div>
+    	  
+
+    	</div>
+    	
+    	<div id="tabs-2">
+    		<p>...</p>
+    	</div>
+    	<div id="tabs-3">
+    		<p>...</p>
+    	</div>
+    	<div id="tabs-4">
+    		<p>...</p>
+    	</div>
+    	<div id="tabs-5">
+    		<p>...</p>
+    	</div>
+    </div>
+
+  </div><!-- End demo -->
+
+
+
+  <div class="demo-description" style="display: none; ">
+  <p>Click tabs to swap between content that is broken into logical sections.</p>
+  </div><!-- End demo-description -->
+  
+</body>
+</html>
